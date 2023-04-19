@@ -1,6 +1,7 @@
 
 //setting up audio variables
-// let cough1 = new Audio("sounds/cough1.mp3");
+let cough1 = new Audio("sounds/cough1.mp3");
+let cough2 = new Audio("sounds/cough2.mp3");
 
 let coughElements = document.querySelectorAll(".cough");
 
@@ -10,6 +11,7 @@ for (let i = 0; i < coughElements.length; i++) {
     coughElements[i].addEventListener("click", function () {
         let buttonInnerHTML = this.innerHTML;
 
+        console.log(buttonInnerHTML);
         makeSound(buttonInnerHTML);
 
         buttonAnimation(buttonInnerHTML);
@@ -36,26 +38,26 @@ function makeSound(key) {
             let cough2 = new Audio("sounds/cough2.mp3");
             cough2.play();
             break;
-        // case "s":
-        //     let tom3 = new Audio("sounds/tom-3.mp3");
-        //     tom3.play();
-        //     break;
-        // case "d":
-        //     let tom4 = new Audio("sounds/tom-4.mp3");
-        //     tom4.play();
-        //     break;
-        // case "j":
-        //     let snare = new Audio("sounds/snare.mp3");
-        //     snare.play();
-        //     break;
-        // case "k":
-        //     let kick = new Audio("sounds/kick-bass.mp3");
-        //     kick.play();
-        //     break;
-        // case "l":
-        //     let crash = new Audio("sounds/crash.mp3");
-        //     crash.play();
-        //     break;
+        case "s":
+            let cough3 = new Audio("sounds/cough3.mp3");
+            cough3.play();
+            break;
+        case "d":
+            let cough4 = new Audio("sounds/cough4.mp3");
+            cough4.play();
+            break;
+        case "j":
+            let clearThroat2 = new Audio("sounds/clearThroat2.mp3");
+            clearThroat2.play();
+            break;
+        case "k":
+            let clearThroat1 = new Audio("sounds/clearThroat1.mp3");
+            clearThroat1.play();
+            break;
+        case "l":
+            let sneeze1 = new Audio("sounds/sneeze1.mp3");
+            sneeze1.play();
+            break;
         default:
     }
 }
