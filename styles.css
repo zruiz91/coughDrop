@@ -11,9 +11,51 @@ h1 {
 
 }
 
+/* buttons*/
+
+.w {
+}
+
+.a {
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
+
 /* holds the buttons*/
 .set {
     margin: 10% auto;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
 }
 
 /* code for the compostion of the faces */
@@ -61,19 +103,20 @@ h1 {
 }
 
 .cough {
+    position: relative;
     outline: none;
-    border: 10px solid #377D71;
+    border: solid, #000, 2px;
     font-size: 5rem;
     font-family: 'Rubik Wet Paint', cursive;
     line-height: 2;
     font-weight: 900;
     color: #FBC5C5;
     text-shadow: 3px 0 #377D71;
-    border-radius: 15px;
+    border-radius: 100%;
     display: inline-block;
     width: 150px;
     height: 150px;
     text-align: center;
     margin: 10px;
-    background-color: #FBC5C5;
+    background-color: antiquewhite;
 }
