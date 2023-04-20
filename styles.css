@@ -17,7 +17,7 @@ footer {
 }
 
 .top {
-    background-color: #FBC5C5;
+
 }
 /* buttons*/
 
@@ -57,40 +57,8 @@ footer {
     border: solid, #000, 2px;
 }
 
-#left-eye {
-    position: absolute;
-    left: 25px;
-    top: 25px;
-    width: 20px;
-    height: 30px;
-    background-color: #000;
-    border-radius: 100%;
-    border: solid, #fff, 20px;
-}
-
-#right-eye {
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    width: 20px;
-    height: 30px;
-    background-color: #000;
-    border-radius: 100%;
-    border: solid, #fff, 20px;
-}
-
-#mouth {
-    position: absolute;
-    left: 25%;
-    width: 55%;
-    height: 35%;
-    background-color: #000;
-    border-radius: 100%;
-    border-bottom: solid, 3px, #000;
-    bottom: 30px;
-}
-
 /* styles for all the buttons*/
+
 .cough {
     position: relative;
     outline: none;
@@ -107,5 +75,143 @@ footer {
     height: 150px;
     text-align: center;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #377D71;
+}
+
+#left-eye {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#right-eye {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#nose{
+    position: absolute;
+    right: 75px;
+    top: 35px;
+    width: 20px;
+    height: 40px;
+    background-color: #FBA1A1;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#mouth {
+    position: absolute;
+    left: 25%;
+    width: 55%;
+    height: 35%;
+    background-color: #000;
+    border-radius: 100%;
+    border-bottom: solid, 3px, #000;
+    bottom: 30px;
+}
+
+
+
+/* styles for all the buttons*/
+.cough1 {
+    position: relative;
+    outline: none;
+    border: solid, #000, 2px;
+    font-size: 5rem;
+    font-family: 'Rubik Wet Paint', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #377D71;
+    text-shadow: 3px 0 #FBC5C5;
+    border-radius: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    margin: 10px;
+    background-color: #e9c496;
+}
+
+#mustache{
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 65px;
+    top: 100px;
+    background-color: #4F200D;
+    transform: translateX(-10%) translateY(20%);
+
+}
+
+#hair {
+    position: absolute;
+    background-color: #000;
+    width: 100px;
+    height: 40px;
+    left: 40px;
+    top: 1px;
+    transform: translateX(0%) translateY(-60%);
+    border-radius: 10px;
+}
+#left-eye1 {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    width: 40px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+    transform: translateX(-5%) translateY(40%);
+}
+
+#right-eye1 {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 40px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+    transform: translateX(-5%) translateY(40%);
+}
+
+#nose{
+    position: absolute;
+    right: 85px;
+    top: 95px;
+    width: 25px;
+    height: 65px;
+    background-color: #FBA1A1;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+    transform: translateX(0%) translateY(-60%);
+}
+
+#mouth1 {
+    position: absolute;
+    left: 23%;
+    width: 55%;
+    height: 35%;
+    background-color: #000;
+    border-radius: 100%;
+    border-bottom: solid, 3px, #000;
+    bottom: 30px;
+}
+
+eye{
+    background-color: #fff;
 }
