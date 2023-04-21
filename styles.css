@@ -16,9 +16,8 @@ footer {
     font-family: sans-serif;
 }
 
-.top {
+.top {}
 
-}
 /* buttons*/
 
 .w {}
@@ -42,8 +41,9 @@ footer {
 
 
 .pressed {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
+    box-shadow: 0 3px 4px 0 #06a516;
+    transform: rotate(180deg);
+
 }
 
 /* code for the compostion of the faces */
@@ -100,7 +100,7 @@ footer {
     border: solid, #fff, 20px;
 }
 
-#nose{
+#nose {
     position: absolute;
     right: 75px;
     top: 35px;
@@ -144,7 +144,7 @@ footer {
     background-color: #e9c496;
 }
 
-#mustache{
+#mustache {
     position: absolute;
     width: 90px;
     height: 20px;
@@ -165,6 +165,7 @@ footer {
     transform: translateX(0%) translateY(-60%);
     border-radius: 10px;
 }
+
 #left-eye1 {
     position: absolute;
     left: 40px;
@@ -189,7 +190,7 @@ footer {
     transform: translateX(-5%) translateY(40%);
 }
 
-#nose{
+#nose {
     position: absolute;
     right: 85px;
     top: 95px;
@@ -212,6 +213,6 @@ footer {
     bottom: 30px;
 }
 
-eye{
+eye {
     background-color: #fff;
 }
