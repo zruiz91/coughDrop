@@ -558,3 +558,139 @@ eye {
     bottom: 30px;
     transform: translateX(5%) translateY(40%);
 }
+
+/* sixth button styling */
+
+.cough6 {
+    position: relative;
+    outline: none;
+    font-size: 5rem;
+    font-family: 'Rubik Wet Paint', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #E5BEEC;
+    text-shadow: 3px 0 #E5BEEC;
+    border-radius: 100%;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 10px;
+    background-color: #FEFF86;
+}
+
+
+#left-eye-6 {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#right-eye-6 {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#nose6 {
+    position: absolute;
+    right: 73px;
+    top: 35px;
+    width: 40px;
+    height: 32px;
+    background-color: #B0DAFF;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+    transform: translateX(55%) translateY(40%);
+}
+
+#mouth6 {
+    position: absolute;
+    left: 25%;
+    width: 45%;
+    height: 25%;
+    background-color: #850000;
+    border-radius: 100%;
+    border-bottom: solid, 3px, #000;
+    bottom: 30px;
+    transform: translateX(5%) translateY(40%);
+}
+
+
+
+/* seventh button styling */
+
+.cough7 {
+    position: relative;
+    outline: none;
+    font-size: 5rem;
+    font-family: 'Rubik Wet Paint', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #FFDB89;
+    text-shadow: 3px 0 #377D71;
+    border-radius: 100%;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 10px;
+    background-color: #DC0000;
+}
+
+
+#left-eye-7 {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#right-eye-7 {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+}
+
+#nose7 {
+    position: absolute;
+    right: 73px;
+    top: 35px;
+    width: 40px;
+    height: 32px;
+    background-color: #FFDB89;
+    border-radius: 100%;
+    border: solid, #fff, 20px;
+    transform: translateX(55%) translateY(40%);
+}
+
+#mouth7 {
+    position: absolute;
+    left: 25%;
+    width: 45%;
+    height: 25%;
+    background-color: #850000;
+    border-radius: 100%;
+    border-bottom: solid, 3px, #000;
+    bottom: 30px;
+    transform: translateX(5%) translateY(40%);
+}
