@@ -31,31 +31,31 @@ function makeSound(key) {
 
     switch (key) {
         case "w":
-            let cough1 = new Audio("sounds/cough1.mp3");
+            let cough1 = new Audio("sounds/cough4-P-80.mp3");
             cough1.play();
             break;
         case "a":
-            let cough2 = new Audio("sounds/cough2.mp3");
+            let cough2 = new Audio("sounds/cough4-P-60.mp3");
             cough2.play();
             break;
         case "s":
-            let cough3 = new Audio("sounds/cough3.mp3");
+            let cough3 = new Audio("sounds/cough4-P-40.mp3");
             cough3.play();
             break;
         case "d":
-            let cough4 = new Audio("sounds/cough4.mp3");
+            let cough4 = new Audio("sounds/cough4-P-20.mp3");
             cough4.play();
             break;
         case "j":
-            let clearThroat2 = new Audio("sounds/clearThroat2.mp3");
+            let clearThroat2 = new Audio("sounds/cough4.mp3");
             clearThroat2.play();
             break;
         case "k":
-            let clearThroat1 = new Audio("sounds/clearThroat1.mp3");
+            let clearThroat1 = new Audio("sounds/cough4-P+20.mp3");
             clearThroat1.play();
             break;
         case "l":
-            let sneeze1 = new Audio("sounds/sneeze1.mp3");
+            let sneeze1 = new Audio("sounds/cough4-P+40.mp3");
             sneeze1.play();
             break;
         default:
