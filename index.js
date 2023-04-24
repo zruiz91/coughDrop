@@ -47,7 +47,7 @@ function makeSound(key) {
             cough4.play();
             break;
         case "j":
-            let clearThroat2 = new Audio("sounds/cough4.mp3");
+            let clearThroat2 = new Audio("sounds/cough4-P+0.mp3");
             clearThroat2.play();
             break;
         case "k":
